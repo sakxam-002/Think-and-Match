@@ -5,6 +5,7 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
 
 public class StartViewController extends Application {
@@ -18,8 +19,12 @@ public class StartViewController extends Application {
         root.getChildren().addAll(bgimgview);
 
         Scene scene = new Scene(root);
+
+
         stage.setScene(scene);
         stage.show();
+
+
     }
 
     public static void main(String[] args) {
