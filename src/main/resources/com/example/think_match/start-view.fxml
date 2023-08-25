@@ -17,7 +17,7 @@
             <Image url="@../../../imgs/thnk-bg.jpg" />
          </image>
       </ImageView>
-      <VBox alignment="TOP_CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox alignment="TOP_CENTER" mouseTransparent="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <ImageView fitHeight="389.0" fitWidth="596.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -34,20 +34,20 @@
                <font>
                   <Font size="30.0" />
                </font></Label>
-            <Button mnemonicParsing="false" style="-fx-background-color: #FFFFFF; -fx-background-radius: 50; -fx-border-color: #00A507; -fx-border-radius: 50; -fx-border-width: 5; -fx-font: Kodchasan-SemiBold;" text="START">
-               <font>
-                  <Font size="30.0" />
-               </font>
-               <VBox.margin>
-                  <Insets top="70.0" />
-               </VBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" text="Button">
+            <Button fx:id="startbutton" alignment="CENTER" blendMode="MULTIPLY" contentDisplay="CENTER" mnemonicParsing="false" mouseTransparent="true" prefHeight="75.0" prefWidth="160.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 50; -fx-border-color: #00A507; -fx-border-radius: 50; -fx-border-width: 5;" text="START" textFill="#00a507">
                <font>
                   <Font size="30.0" />
                </font>
                <VBox.margin>
                   <Insets top="60.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="exitbutton" alignment="CENTER" blendMode="MULTIPLY" contentDisplay="CENTER" mnemonicParsing="false" mouseTransparent="true" prefHeight="75.0" prefWidth="170.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 50; -fx-border-color: #E56464; -fx-border-radius: 50; -fx-border-width: 5;" text="EXIT" textFill="#e56464">
+               <font>
+                  <Font size="30.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="40.0" />
                </VBox.margin>
             </Button>
          </children>
