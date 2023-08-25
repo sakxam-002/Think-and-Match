@@ -16,10 +16,11 @@ public class MainApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("start-view.fxml"));
         AnchorPane root = fxmlLoader.load();
+
+        Scene scene = new Scene(root, 500,400);
         stage.setFullScreen(true);
-        stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("Q"));
-        stage.setFullScreenExitHint("Press Q to Exit Fullscreen");
-        Scene scene = new Scene(root);
+        stage.setFullScreenExitKeyCombination(KeyCombination.valueOf("Esc"));
+        stage.setFullScreenExitHint("Press ESC to Exit Fullscreen");
         stage.setTitle("Think & Match");
         stage.setScene(scene);
         stage.show();
