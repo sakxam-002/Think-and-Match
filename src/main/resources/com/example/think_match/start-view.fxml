@@ -34,7 +34,7 @@
                <font>
                   <Font size="30.0" />
                </font></Label>
-            <Button fx:id="startbutton" alignment="CENTER" blendMode="MULTIPLY" contentDisplay="CENTER" mnemonicParsing="false" mouseTransparent="true" prefHeight="75.0" prefWidth="160.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 50; -fx-border-color: #00A507; -fx-border-radius: 50; -fx-border-width: 5;" text="START" textFill="#00a507">
+            <Button fx:id="startbutton" alignment="CENTER" blendMode="MULTIPLY" contentDisplay="CENTER" mnemonicParsing="false" mouseTransparent="true" onAction="#onStartButtonClicked" prefHeight="75.0" prefWidth="160.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 50; -fx-border-color: #00A507; -fx-border-radius: 50; -fx-border-width: 5;" text="START" textFill="#00a507">
                <font>
                   <Font size="30.0" />
                </font>
